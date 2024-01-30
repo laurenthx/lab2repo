@@ -11,6 +11,7 @@ import MultipleSelector, { multipleSelectorModel } from "../forms/MultipleSelect
 import { useState } from "react";
 import { genreDTO } from "../genres/genres.model";
 import { movieTheaterDTO } from "../movietheaters/movieTheater.model";
+import TypeAheadActor from "../forms/TypeAheadActors";
 
 export default function MovieForm(props: movieFormProps) {
 
@@ -76,6 +77,8 @@ export default function MovieForm(props: movieFormProps) {
                 setNonSelectedMovieTheaters(nonSelected);
               }}
             />
+
+            <TypeAheadActor displayName="Actors" actors={[]}/>
 
           <Button disabled={formikProps.isSubmitting} type="submit">
             Save Changes
