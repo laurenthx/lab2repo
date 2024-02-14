@@ -27,7 +27,7 @@ export default function Pagination(props: paginationProps) {
     const links: linkModel[] = [];
 
     links.push({
-      text: "Prevoius",
+      text: "Previous",
       enabled: previousPageEnabled,
       page: previousPage,
       active: false,
@@ -91,3 +91,6 @@ interface paginationProps {
   radio: number;
   onChange(page: number): void;
 }
+Pagination.defaultProps = {
+  radio: 3,
+};
