@@ -203,3 +203,5 @@ C:\Users\FM COMPUTERS\OneDrive\Desktop\Movies-App\MoviesAPI\bin\Debug\net6.0\run
 C:\Users\FM COMPUTERS\OneDrive\Desktop\Movies-App\MoviesAPI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
 C:\Users\FM COMPUTERS\OneDrive\Desktop\Movies-App\MoviesAPI\bin\Debug\net6.0\AutoMapper.dll
 C:\Users\FM COMPUTERS\OneDrive\Desktop\Movies-App\MoviesAPI\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Kaltrina\Documents\GitHub\Movies-App\MoviesAPI\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\Kaltrina\Documents\GitHub\Movies-App\MoviesAPI\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
