@@ -13,7 +13,8 @@ export default function GenreForm(props: genreFromProps) {
       validationSchema={YUP.object({
         name: YUP.string()
           .required("This field is required")
-          .max(50, 'Max length is 50 characters').firstLetterUppercase()
+          .max(50, "Max length is 50 characters")
+          .firstLetterUppercase(),
       })}
     >
       {(formikProps) => (
