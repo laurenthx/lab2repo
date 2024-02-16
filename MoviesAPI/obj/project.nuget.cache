@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "M1pxXYxmsZh19GsxDxxUlqGtB9lqKLfMl8S2w3AoHDzGpm02B/HUhR9tTuWkzyuzO6im/L1Si4BJZJSsedaqyA==",
+  "dgSpecHash": "VhZ1jUGlR3dk/0ufB9+5hFOx94K292GMsUJh/GQAofVNi3/F/OP32q96T///jpvi7k29lcd1q1nDMtDKgotdQw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\FM COMPUTERS\\OneDrive\\Desktop\\lab2repo\\MoviesAPI\\MoviesAPI.csproj",
+  "projectFilePath": "C:\\Users\\FM COMPUTERS\\OneDrive\\Desktop\\Movies-App\\MoviesAPI\\MoviesAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\FM COMPUTERS\\.nuget\\packages\\automapper\\10.1.0\\automapper.10.1.0.nupkg.sha512",
     "C:\\Users\\FM COMPUTERS\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.0\\automapper.extensions.microsoft.dependencyinjection.8.1.0.nupkg.sha512",

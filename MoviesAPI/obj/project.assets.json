@@ -2610,11 +2610,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\FM COMPUTERS\\OneDrive\\Desktop\\lab2repo\\MoviesAPI\\MoviesAPI.csproj",
+      "projectUniqueName": "C:\\Users\\FM COMPUTERS\\OneDrive\\Desktop\\Movies-App\\MoviesAPI\\MoviesAPI.csproj",
       "projectName": "MoviesAPI",
-      "projectPath": "C:\\Users\\FM COMPUTERS\\OneDrive\\Desktop\\lab2repo\\MoviesAPI\\MoviesAPI.csproj",
+      "projectPath": "C:\\Users\\FM COMPUTERS\\OneDrive\\Desktop\\Movies-App\\MoviesAPI\\MoviesAPI.csproj",
       "packagesPath": "C:\\Users\\FM COMPUTERS\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\FM COMPUTERS\\OneDrive\\Desktop\\lab2repo\\MoviesAPI\\obj\\",
+      "outputPath": "C:\\Users\\FM COMPUTERS\\OneDrive\\Desktop\\Movies-App\\MoviesAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\FM COMPUTERS\\AppData\\Roaming\\NuGet\\NuGet.Config",
