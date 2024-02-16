@@ -11,6 +11,7 @@ using Microsoft.Extensions.Logging;
 using Microsoft.EntityFrameworkCore;
 using AutoMapper;
 using MoviesAPI.APIBehavior;
+using MoviesAPI.Helpers;
 
 namespace MoviesAPI
 {
@@ -61,6 +62,8 @@ namespace MoviesAPI
             );
 
             services.AddAutoMapper(typeof(Startup));
+            services.AddScoped<IFileStorageService, InAppStorageService>();
+            services.AddHttpContextAccessor();
         }
 
 
@@ -76,6 +79,7 @@ namespace MoviesAPI
             }
 
             app.UseHttpsRedirection();
+            app.UseStaticFiles();
 
             app.UseRouting();
 

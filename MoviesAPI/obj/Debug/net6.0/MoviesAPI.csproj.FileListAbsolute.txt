@@ -205,3 +205,4 @@ C:\Users\FM COMPUTERS\OneDrive\Desktop\Movies-App\MoviesAPI\bin\Debug\net6.0\Aut
 C:\Users\FM COMPUTERS\OneDrive\Desktop\Movies-App\MoviesAPI\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 C:\Users\Kaltrina\Documents\GitHub\Movies-App\MoviesAPI\bin\Debug\net6.0\AutoMapper.dll
 C:\Users\Kaltrina\Documents\GitHub\Movies-App\MoviesAPI\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Kaltrina\Documents\GitHub\Movies-App\MoviesAPI\bin\Debug\net6.0\MoviesAPI.staticwebassets.runtime.json
