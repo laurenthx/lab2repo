@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "r+HcM5THBq7AJ0HRsjoAoqfmZslBb5Pr3ODxWG08h80=",
+  "Hash": "y4+Sdcz43Rl1GqMSunsh45rwuEeU39hHOuYVH1FgFmM=",
   "Source": "MoviesAPI",
   "BasePath": "_content/MoviesAPI",
   "Mode": "Default",
@@ -10,17 +10,34 @@
     {
       "Name": "MoviesAPI\\wwwroot",
       "Source": "MoviesAPI",
-      "ContentRoot": "C:\\Users\\Kaltrina\\Documents\\GitHub\\Movies-App\\MoviesAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\laure\\OneDrive\\Desktop\\Movies-App\\MoviesAPI\\wwwroot\\",
       "BasePath": "_content/MoviesAPI",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\Kaltrina\\Documents\\GitHub\\Movies-App\\MoviesAPI\\wwwroot\\actors\\7d48c90d-8a3e-4e7f-a740-d1b9b34e9ba9.jpg",
+      "Identity": "C:\\Users\\laure\\OneDrive\\Desktop\\Movies-App\\MoviesAPI\\wwwroot\\actors\\282f04cd-85f5-46b3-b49f-dfc4e27a8150.jpg",
       "SourceId": "MoviesAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kaltrina\\Documents\\GitHub\\Movies-App\\MoviesAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\laure\\OneDrive\\Desktop\\Movies-App\\MoviesAPI\\wwwroot\\",
+      "BasePath": "_content/MoviesAPI",
+      "RelativePath": "actors/282f04cd-85f5-46b3-b49f-dfc4e27a8150.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\actors\\282f04cd-85f5-46b3-b49f-dfc4e27a8150.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\laure\\OneDrive\\Desktop\\Movies-App\\MoviesAPI\\wwwroot\\actors\\7d48c90d-8a3e-4e7f-a740-d1b9b34e9ba9.jpg",
+      "SourceId": "MoviesAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\laure\\OneDrive\\Desktop\\Movies-App\\MoviesAPI\\wwwroot\\",
       "BasePath": "_content/MoviesAPI",
       "RelativePath": "actors/7d48c90d-8a3e-4e7f-a740-d1b9b34e9ba9.jpg",
       "AssetKind": "All",
