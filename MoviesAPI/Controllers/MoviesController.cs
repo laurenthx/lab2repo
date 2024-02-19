@@ -1,5 +1,7 @@
 ﻿using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using MoviesAPI.DTOs;
 using MoviesAPI.Entities;
 using MoviesAPI.Helpers;
 
@@ -21,13 +23,26 @@ namespace MoviesAPI.Controllers
             this.mapper = mapper;
             this.fileStorageService=fileStorageService;
         }
+
+        [HttpGet("PostGet")]
+        public async Task<ActionResult<MoviePostGetDTO>> PostGet()
+        {
+            var movieTheaters=await context.MovieTheaters.ToListAsync();
+            var genres= await context.Genres.ToListAsync();
+
+            var movieTheaterDTO=mapper.Map<List<MovieTheaterDTO>>(movieTheaters);
+            var genresDTO=mapper.Map<List<GenreDTO>>(genres);
+
+             return new MoviePostGetDTO() { Genres= genresDTO, MovieTheater=movieTheaterDTO };
+        }
+
         [HttpPost]
         public async Task<ActionResult> Post([FromForm] MovieCreationDTO movieCreationDTO)
         {
             var movie = mapper.Map<Movie>(movieCreationDTO);
-            if (movie.Poster != null)
+            if (movieCreationDTO.Poster != null)
             {
-                movie.Poster = await fileStorageService.SaveFile(container, movieCreationDTO);
+                movie.Poster = await fileStorageService.SaveFile(container, movieCreationDTO.Poster);
             }
             AnnotateActorsOrder(movie);
             context.Add(movie);

@@ -2,5 +2,6 @@
 {
     public class MovieCreationDTO
     {
+        public object Poster { get; internal set; }
     }
 }
