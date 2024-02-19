@@ -240,3 +240,7 @@ C:\Users\laure\OneDrive\Desktop\Movies-App\MoviesAPI\bin\Debug\net6.0\Microsoft.
 C:\Users\laure\OneDrive\Desktop\Movies-App\MoviesAPI\bin\Debug\net6.0\NetTopologySuite.dll
 C:\Users\laure\OneDrive\Desktop\Movies-App\MoviesAPI\bin\Debug\net6.0\NetTopologySuite.IO.SqlServerBytes.dll
 C:\Users\laure\OneDrive\Desktop\Movies-App\MoviesAPI\obj\Debug\net6.0\EFCoreSqlServerNetTopologySuite.cs
+C:\Users\Kaltrina\Documents\GitHub\Movies-App\MoviesAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.NetTopologySuite.dll
+C:\Users\Kaltrina\Documents\GitHub\Movies-App\MoviesAPI\bin\Debug\net6.0\NetTopologySuite.dll
+C:\Users\Kaltrina\Documents\GitHub\Movies-App\MoviesAPI\bin\Debug\net6.0\NetTopologySuite.IO.SqlServerBytes.dll
+C:\Users\Kaltrina\Documents\GitHub\Movies-App\MoviesAPI\obj\Debug\net6.0\EFCoreSqlServerNetTopologySuite.cs

@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Drawing;
 
 namespace MoviesAPI.Entities
@@ -11,6 +12,8 @@ namespace MoviesAPI.Entities
         [StringLength(maximumLength: 75)]
 
         public string Name { get; set; }
+
+        [NotMapped]
         public Point Location { get; set; }
 
 
