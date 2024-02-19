@@ -55,5 +55,10 @@
             var routeForDB=Path.Combine(url,containerName,fileName).Replace("\\","/");
             return routeForDB;
         }
+
+        public Task<string> SaveFile(string container, object poster)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

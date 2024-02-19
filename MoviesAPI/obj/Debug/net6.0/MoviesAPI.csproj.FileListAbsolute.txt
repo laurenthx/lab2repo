@@ -244,3 +244,4 @@ C:\Users\Kaltrina\Documents\GitHub\Movies-App\MoviesAPI\bin\Debug\net6.0\Microso
 C:\Users\Kaltrina\Documents\GitHub\Movies-App\MoviesAPI\bin\Debug\net6.0\NetTopologySuite.dll
 C:\Users\Kaltrina\Documents\GitHub\Movies-App\MoviesAPI\bin\Debug\net6.0\NetTopologySuite.IO.SqlServerBytes.dll
 C:\Users\Kaltrina\Documents\GitHub\Movies-App\MoviesAPI\obj\Debug\net6.0\EFCoreSqlServerNetTopologySuite.cs
+C:\Users\Kaltrina\Documents\GitHub\Movies-App\MoviesAPI\bin\Debug\net6.0\Newtonsoft.Json.dll

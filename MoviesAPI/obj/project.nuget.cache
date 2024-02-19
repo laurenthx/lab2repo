@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Fr0mvjjox9WPMzsCEZvZdfxiQiiXBQRBS0FbElSZe9Jgdi72S3P+KyrFnG+SWWaL6Eu3BT+yi36uSh6nk0zD2g==",
+  "dgSpecHash": "WDHP0Li6X4qqsJTW2a1jZ8Je4tHh8TiW3vBzvB4QkOwiCs4ZXte8ufqr8hTiCtgbVc2BRF1SvWfHq/eBoImlhA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Kaltrina\\Documents\\GitHub\\Movies-App\\MoviesAPI\\MoviesAPI.csproj",
   "expectedPackageFiles": [
@@ -41,6 +41,7 @@
     "C:\\Users\\Kaltrina\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
     "C:\\Users\\Kaltrina\\.nuget\\packages\\nettopologysuite\\2.3.0\\nettopologysuite.2.3.0.nupkg.sha512",
     "C:\\Users\\Kaltrina\\.nuget\\packages\\nettopologysuite.io.sqlserverbytes\\2.0.0\\nettopologysuite.io.sqlserverbytes.2.0.0.nupkg.sha512",
+    "C:\\Users\\Kaltrina\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\Kaltrina\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
     "C:\\Users\\Kaltrina\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
     "C:\\Users\\Kaltrina\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",

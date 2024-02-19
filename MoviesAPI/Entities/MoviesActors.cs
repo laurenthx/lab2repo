@@ -10,7 +10,7 @@ namespace MoviesAPI.Entities
         [StringLength(maximumLength:75)]
         public string Character { get; set; }
 
-        public int Oreder { get; set; }
+        public int Order { get; set; }
 
         public Actor Actor { get; set; }
 
