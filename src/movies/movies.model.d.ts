@@ -9,7 +9,7 @@ export interface movieDTO {
   inTheaters: boolean;
   trailer: string;
   summary?: string;
-  releaseData: Date;
+  releaseDate: Date;
   genres: genreDTO[];
   movieTheaters: movieTheaterDTO[];
   actors: actorMovieDTO[];
@@ -19,7 +19,7 @@ export interface movieCreationDTO {
   inTheaters: boolean;
   trailer: string;
   summary?: string;
-  releaseData?: Date;
+  releaseDate?: Date;
   poster?: File;
   posterURL?: string;
   genresIds?: number[];
@@ -35,4 +35,12 @@ export interface landingPageDTO {
 export interface moviesPostGetDTO {
   genres: genreDTO[];
   movieTheaters: movieTheaterDTO[];
+}
+export interface moviePutGetDTO {
+  movie: movieDTO;
+  selectedGenres: genreDTO[];
+  nonSelectedGenres: genreDTO[];
+  selectedMovieTheaters: movieTheaterDTO[];
+  nonSelectedMovieTheaters: movieTheaterDTO[];
+  actors: actorMovieDTO[];
 }
