@@ -1,8 +1,8 @@
 import axios from "axios";
-import { useHistory } from "react-router-dom";
+import { urlMovieTheaters } from "../endpoints";
 import MovieTheaterForm from "./MovieTheaterForm";
 import { movieTheaterCreationDTO } from "./movieTheater.model";
-import { urlMovieTheaters } from "../endpoints";
+import { useHistory } from "react-router-dom";
 import { useState } from "react";
 import DisplayErrors from "../utils/DisplayErrors";
 
@@ -20,6 +20,7 @@ export default function CreateMovieTheater() {
       }
     }
   }
+
   return (
     <>
       <h3>Create Movie Theater</h3>

@@ -1,7 +1,8 @@
 import { useEffect, useState } from "react";
 
 export default function Pagination(props: paginationProps) {
-  const [linkModels, setLinkModel] = useState<linkModel[]>([]);
+  const [linkModels, setLinkModels] = useState<linkModel[]>([]);
+
   function selectPage(link: linkModel) {
     if (link.page === props.currentPage) {
       return;
@@ -10,17 +11,22 @@ export default function Pagination(props: paginationProps) {
     if (!link.enabled) {
       return;
     }
+
     props.onChange(link.page);
   }
+
   function getClass(link: linkModel) {
     if (link.active) {
       return "active pointer";
     }
+
     if (!link.enabled) {
       return "disabled";
     }
+
     return "pointer";
   }
+
   useEffect(() => {
     const previousPageEnabled = props.currentPage !== 1;
     const previousPage = props.currentPage - 1;
@@ -46,6 +52,7 @@ export default function Pagination(props: paginationProps) {
         });
       }
     }
+
     const nextPageEnabled =
       props.currentPage !== props.totalAmountOfPages &&
       props.totalAmountOfPages > 0;
@@ -58,7 +65,7 @@ export default function Pagination(props: paginationProps) {
       active: false,
     });
 
-    setLinkModel(links);
+    setLinkModels(links);
   }, [props.currentPage, props.totalAmountOfPages, props.radio]);
 
   return (
@@ -91,6 +98,7 @@ interface paginationProps {
   radio: number;
   onChange(page: number): void;
 }
+
 Pagination.defaultProps = {
   radio: 3,
 };

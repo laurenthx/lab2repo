@@ -6,7 +6,7 @@ export default function RecordsPerPageSelect(props: recordsPerPageSelectProps) {
         className="form-select"
         defaultValue={5}
         onChange={(e) => {
-          props.onchange(parseInt(e.currentTarget.value, 10));
+          props.onChange(parseInt(e.currentTarget.value, 10));
         }}
       >
         <option value={5}>5</option>
@@ -17,6 +17,7 @@ export default function RecordsPerPageSelect(props: recordsPerPageSelectProps) {
     </div>
   );
 }
+
 interface recordsPerPageSelectProps {
-  onchange(recordsPerPage: number): void;
+  onChange(recordsPerPage: number): void;
 }
