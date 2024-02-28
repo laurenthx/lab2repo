@@ -9,6 +9,7 @@ import Pagination from "../utils/Pagination";
 import { movieDTO } from "./movies.model";
 import MoviesList from "./MoviesList";
 
+
 export default function FilterMovies() {
 
     const initialValues: filterMoviesForm = {
@@ -19,6 +20,7 @@ export default function FilterMovies() {
         page: 1,
         recordsPerPage: 5
     }
+
 
     const [genres, setGenres] = useState<genreDTO[]>([]);
     const [movies, setMovies] = useState<movieDTO[]>([]);
