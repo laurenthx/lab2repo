@@ -14,6 +14,10 @@ using MoviesAPI.APIBehavior;
 using MoviesAPI.Helpers;
 using NetTopologySuite.Geometries;
 using NetTopologySuite;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
+using System.IdentityModel.Tokens.Jwt;
 
 namespace MoviesAPI
 {
@@ -22,6 +26,7 @@ namespace MoviesAPI
 
         public Startup(IConfiguration configuration)
         {
+            JwtSecurityTokenHandler.DefaultInboundClaimTypeMap.Clear();
             Configuration = configuration;
         }
 
@@ -34,10 +39,6 @@ namespace MoviesAPI
             options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"),
             sqlOptions => sqlOptions.UseNetTopologySuite()));
 
-            
-
-
-
 
             services.AddControllers(options =>
             {
@@ -45,13 +46,37 @@ namespace MoviesAPI
                 options.Filters.Add(typeof(ParseBadRequest));
             }).ConfigureApiBehaviorOptions(BadRequestBehavior.Parse);
 
-            services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer();
 
 
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "MoviesAPI", Version = "v1" });
             });
+
+
+
+
+            services.AddIdentity<IdentityUser, IdentityRole>()
+               .AddEntityFrameworkStores<ApplicationDbContext>()
+               .AddDefaultTokenProviders();
+
+            services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+                .AddJwtBearer(options =>
+                {
+                    options.TokenValidationParameters = new TokenValidationParameters
+                    {
+                        ValidateIssuer = false,
+                        ValidateAudience = false,
+                        ValidateLifetime = true,
+                        ValidateIssuerSigningKey = true,
+                        IssuerSigningKey = new SymmetricSecurityKey(
+                            Encoding.UTF8.GetBytes(Configuration["keyjwt"])),
+                        ClockSkew = TimeSpan.Zero
+                    };
+                });
+
+
+
 
             services.AddAutoMapper(typeof(Startup));
 
